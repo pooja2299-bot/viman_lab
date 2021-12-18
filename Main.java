@@ -49,6 +49,8 @@ public class Main {
 
 
         int finalExecutionTime = getFinalExecutionTime(tasksExecutionTimeList);
+        
+        System.out.println("Bin MLA value is " + binMla);
 
         System.out.println("End program and execution time is " + finalExecutionTime);
 
