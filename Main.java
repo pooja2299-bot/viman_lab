@@ -64,7 +64,7 @@ public class Main {
         List<Integer> maxTimeList = new ArrayList<>();
 
         while (tasksExecutionTimeList.size() != 0) {
-            Collections.sort(tasksExecutionTimeList);
+            Collections.sort(tasksExecutionTimeList, Collections.reverseOrder());
             List<Integer> dummyTasksExecutionTimeList = new ArrayList<>(tasksExecutionTimeList);
             tasksExecutionTimeList.clear();
 
